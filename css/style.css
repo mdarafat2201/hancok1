@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --paymaryColor: #ff4655;
+  --whiteColor: #fff;
+  --paymary_background_color: #121212;
+  --secondary_background_color: #191919;
+  --Barlow: "Barlow", sans-serif;
+  --Oswald: "Oswald", sans-serif;
+}
+
+/* ================= common css stat ================ */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+img,
+li {
+  margin: 0;
+  padding: 0;
+}
+/* ================= common css end ================ */
+
+/* =============== nevber part css start =============== */
+#navbar_part {
+  background-color: var(--paymary_background_color);
+}
+
+#navbar_part .coustom_navbar ul li a {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+#navbar_part .menu_icons a {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 14px;
+  font-weight: 400;
+}
+#navbar_part .menu_icons {
+  column-gap: 25px;
+  align-items: center;
+}
+#navbar_part .menu_icons a i {
+  margin-right: 7px;
+}
+/* =============== nevber part css end =============== */
+/* =============== banner part css start =============== */
+#banner_part {
+  background: url(../imgs/banner\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#banner_part .banner_text {
+  color: #fff;
+  margin: 280px 0 100px;
+}
+#banner_part .banner_text h3 {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 2.7px;
+}
+#banner_part .banner_text h1 {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 50px;
+  font-weight: 600;
+  position: relative;
+}
+#banner_part .banner_text h1::before {
+  position: absolute;
+  content: "";
+  left: 80%;
+  bottom: 12%;
+  width: 90px;
+  height: 4px;
+  background-color: var(--whiteColor);
+}
+#banner_part .banner_text p {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 40px;
+  margin: 5px 0 48px;
+}
+#banner_part .banner_text .coustom_button {
+  background-color: var(--whiteColor);
+}
+#banner_part .banner_text .coustom_button a {
+  color: var(--paymary_background_color);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+}
+#banner_part .banner_text .coustom_button a i {
+  margin-left: 10px;
+}
+#banner_part .banner_text .icons {
+  margin-top: 130px;
+}
+
+#banner_part .banner_text .icons a [class="fa-brands fa-facebook"] {
+  width: 40px;
+  height: 40px;
+  background-color: #3d6d9c;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#banner_part .banner_text .icons a [class="fa-brands fa-facebook"]:hover {
+  background: rgb(128, 124, 0);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#banner_part .banner_text .icons a [class="fa-brands fa-twitter"] {
+  width: 40px;
+  height: 40px;
+  background-color: #983333;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#banner_part .banner_text .icons a [class="fa-brands fa-twitter"]:hover {
+  background: rgb(21, 0, 128);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#banner_part .banner_text .icons a [class="fa-brands fa-instagram"] {
+  width: 40px;
+  height: 40px;
+  background-color: #4c9833;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#banner_part .banner_text .icons a [class="fa-brands fa-instagram"]:hover {
+  background: rgb(96, 128, 0);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#banner_part .banner_text .icons a [class="fa-brands fa-linkedin-in"] {
+  width: 40px;
+  height: 40px;
+  background-color: #603398;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#banner_part .banner_text .icons a [class="fa-brands fa-linkedin-in"]:hover {
+  background: green;
+  color: #fff;
+  transform: translateY(-30%);
+}
+
+/* =============== banner part css end =============== */
+/* =============== about part css start =============== */
+#abuot_part {
+  background-color: var(--paymary_background_color);
+  padding: 34px 0 80px;
+}
+#abuot_part .about_left_text {
+  padding-right: 82px;
+}
+#abuot_part .about_left_text h2 {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  margin-bottom: 64px;
+  position: relative;
+}
+#abuot_part .about_left_text h2::before {
+  position: absolute;
+  content: "";
+  left: 38%;
+  bottom: 8%;
+  width: 90px;
+  height: 4px;
+  background-color: var(--paymaryColor);
+}
+#abuot_part .about_text {
+  color: #fff;
+  margin: 150px 0 50px;
+}
+#abuot_part .about_text h3 {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.81px;
+  margin-bottom: 7px;
+}
+#abuot_part .about_text h5 {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+#abuot_part .about_text h5 i {
+  color: var(--paymaryColor);
+  margin-right: 10px;
+}
+#abuot_part .about_text p {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+#abuot_part .about_text .coustom_button {
+  background-color: var(--whiteColor);
+}
+#abuot_part .about_text .coustom_button a {
+  color: var(--paymary_background_color);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+}
+#abuot_part .about_text .coustom_button a i {
+  margin-left: 10px;
+}
+/* =============== about part css end =============== */
+/* =============== games part css start =============== */
+#games_part {
+  background-color: var(--secondary_background_color);
+  padding: 90px 0;
+}
+#games_part .games_right_img h3 {
+  color: var(--whiteColor);
+  text-align: right;
+  font-family: var(--Barlow);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  padding-left: 170px;
+  margin-bottom: 80px;
+  margin-top: 35px;
+  line-height: 35px;
+  position: relative;
+}
+#games_part .games_right_img h3::before {
+  position: absolute;
+  content: "";
+  right: 97px;
+  bottom: 8px;
+  width: 85px;
+  height: 4px;
+  background-color: var(--paymaryColor);
+}
+#games_part .games_right_img .imgs {
+  position: relative;
+}
+#games_part .games_right_img .icons {
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 1px #fff;
+  -webkit-box-shadow: 0px 0px 0px 1px #fff;
+  -moz-box-shadow: 0px 0px 0px 1px #fff;
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+}
+#games_part .games_right_img .icons i {
+  color: var(--whiteColor);
+  margin: 15px 15px 11px;
+}
+#games_part .games_right_img .icons1 {
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 1px #fff;
+  -webkit-box-shadow: 0px 0px 0px 1px #fff;
+  -moz-box-shadow: 0px 0px 0px 1px #fff;
+  position: absolute;
+  bottom: 82px;
+  right: 8px;
+}
+#games_part .games_right_img .icons1 i {
+  color: var(--whiteColor);
+  margin: 15px 15px 11px;
+}
+/* =============== games part css end =============== */
+/* =============== live video part css start =============== */
+#live_video_part {
+  padding: 90px 0;
+  background-color: var(--paymary_background_color);
+}
+#live_video_part .video_taitel h2 {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  margin-bottom: 70px;
+  line-height: 50px;
+  margin-right: 65%;
+  position: relative;
+}
+#live_video_part .video_taitel h2::before {
+  position: absolute;
+  content: "";
+  left: 130px;
+  bottom: 12px;
+  width: 85px;
+  height: 4px;
+  background-color: var(--paymaryColor);
+}
+#live_video_part .live_video_left {
+  position: relative;
+  width: 365px;
+}
+#live_video_part .live_video_left .video_item {
+  filter: grayscale(1);
+}
+#live_video_part .live_video_left .hover_video {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 35%;
+  padding: 25px;
+}
+#live_video_part .live_video_left .hover_video .overlye_icons {
+  position: absolute;
+  top: -85%;
+  left: 42%;
+  font-size: 50px;
+  color: var(--whiteColor);
+}
+#live_video_part .live_video_left .hover_video .movi_titel {
+  font-size: 18px;
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#live_video_part .live_video_left .hover_video .hoverle_left {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.96px;
+}
+#live_video_part .live_video_left .hover_video .hoverle_right {
+  position: relative;
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+}
+#live_video_part .live_video_left .hover_video .hoverle_right::before {
+  position: absolute;
+  content: "";
+  bottom: 3px;
+  right: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--paymaryColor);
+}
+#live_video_part .team_titel .team_titel_text {
+  color: var(--whiteColor);
+  text-align: center;
+  font-family: var(--Barlow);
+  font-size: 25px;
+  font-weight: 500;
+  margin: 60px 0 22px;
+  letter-spacing: 2.25px;
+}
+#live_video_part .team .team_logo {
+  margin-bottom: 50px;
+}
+#live_video_part .tame {
+  text-align: center;
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 6px;
+}
+#live_video_part .tame .tame1 {
+  margin: 39px 0 121px;
+}
+/* =============== live video part css end =============== */
+/* =============== game sela part css start =============== */
+#game_sela_part {
+  padding: 90px 0;
+  background-color: var(--secondary_background_color);
+}
+#game_sela_part .sela_tilel .sela_tilel_text {
+  position: relative;
+  color: var(--whiteColor);
+  text-align: right;
+  padding-left: 62%;
+  font-family: var(--Barlow);
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  margin-bottom: 47px;
+}
+#game_sela_part .sela_tilel .sela_tilel_text::before {
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  right: 88px;
+  width: 80px;
+  height: 4px;
+  background-color: var(--paymaryColor);
+}
+#game_sela_part .sela_dicscobion .sela_dicscobion_text {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.54px;
+  margin-top: 17px;
+}
+#game_sela_part .sela_dicscobion .sela_dicscobion_text1 {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  margin: 20px 0;
+}
+#game_sela_part .sela_dicscobion h5 {
+  margin-right: 10px;
+}
+#game_sela_part .sela_dicscobion .dicscaont_40 {
+  color: var(--whiteColor);
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  background-color: var(--paymaryColor);
+}
+#game_sela_part .sela_dicscobion .prach {
+  color: #666;
+  position: relative;
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+}
+#game_sela_part .sela_dicscobion .prach::before {
+  position: absolute;
+  content: "";
+  bottom: 7px;
+  right: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #666;
+}
+#game_sela_part .sela_dicscobion .dicscaont_parch {
+  color: var(--whiteColor);
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+}
+#game_sela_part .hancok_titel .hancok_titel_text {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 20px;
+  font-weight: 500;
+}
+#game_sela_part .coustom_hancok {
+  background-color: #212121;
+  color: #fff;
+}
+#game_sela_part .coustom_hancok .hancok_ditels {
+  padding: 45px;
+}
+#game_sela_part .coustom_hancok .hancok_ditels .game_titel__text {
+  color: var(--paymaryColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  margin-bottom: 15px;
+}
+#game_sela_part .coustom_hancok .hancok_ditels .game_titel__text1 {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+#game_sela_part .coustom_hancok .hancok_ditels .hancok_dicskipont {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#game_sela_part .coustom_hancok .hancok_ditels .coustom_button1 {
+  background-color: #666;
+}
+#game_sela_part .coustom_hancok .hancok_ditels .coustom_button1 a {
+  color: var(--whiteColor) #fff;
+}
+#game_sela_part .coustom_hancok .game__imgs {
+  position: relative;
+  margin-top: 81px;
+  margin-bottom: 68px;
+}
+#game_sela_part .coustom_hancok .game__imgs .coustom_imgs {
+  position: absolute;
+  top: -19px;
+  left: 37px;
+}
+#game_sela_part .coustom_hancok .game__imgs .coustom_imgs4 {
+  position: absolute;
+  top: -19px;
+  right: 174px;
+}
+#game_sela_part .coustom_hancok .game__imgs .coustom_imgs5 {
+  position: absolute;
+  top: -37px;
+  left: 87px;
+}
+/* =============== game sela part css end =============== */
