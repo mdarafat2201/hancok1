@@ -555,3 +555,55 @@ li {
   left: 87px;
 }
 /* =============== game sela part css end =============== */
+/* =============== provide part css end =============== */
+#Provide_part {
+  padding: 100px 0;
+  background-color: var(--paymary_background_color);
+}
+#Provide_part .provide_header .provide_header_text {
+  position: relative;
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  padding-right: 55%;
+  margin-bottom: 50px;
+}
+#Provide_part .provide_header .provide_header_text::before {
+  position: absolute;
+  content: "";
+  left: 227px;
+  bottom: 8px;
+  width: 85px;
+  height: 4px;
+  background-color: var(--paymaryColor);
+}
+#Provide_part .Provide_titel {
+  background: #212121;
+  padding: 22px 37px;
+}
+#Provide_part .Provide_titel .gamePrich {
+  color: var(--whiteColor);
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+#Provide_part .Provide_titel .Provide_titel_text {
+  color: var(--whiteColor);
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 25px;
+  font-weight: 600;
+}
+#Provide_part .Provide_titel .cart {
+  color: var(--paymaryColor);
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* =============== provide part css end =============== */
