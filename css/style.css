@@ -607,3 +607,28 @@ li {
   text-transform: uppercase;
 }
 /* =============== provide part css end =============== */
+/* =============== team part css start =============== */
+#team_part {
+  padding: 100px 0;
+  background: var(--secondary_background_color);
+}
+#team_part .team_header .team_header_text {
+  position: relative;
+  color: var(--whiteColor);
+  text-align: right;
+  font-family: var(--Barlow);
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  padding-left: 60%;
+}
+#team_part .team_header .team_header_text::before {
+  position: absolute;
+  content: "";
+  right: 80px;
+  bottom: 8px;
+  width: 85px;
+  height: 3px;
+  background-color: var(--paymaryColor);
+}
+/* =============== team part css end =============== */
