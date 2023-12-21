@@ -627,8 +627,47 @@ li {
   content: "";
   right: 80px;
   bottom: 8px;
-  width: 85px;
-  height: 3px;
+  width: 55px;
+  height: 4px;
   background-color: var(--paymaryColor);
+}
+#team_part .teamDiteals {
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px;
+}
+#team_part .teamDiteals .team_hover {
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: rgba(37, 36, 36, 0.38);
+  bottom: -115px;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  transition: 0.2s;
+}
+#team_part .teamDiteals:hover .team_hover {
+  bottom: 0;
+}
+#team_part .teamDiteals .team_hover div {
+  padding: 30px;
+}
+#team_part .teamDiteals .team_hover div .teamTitel {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 30px;
+  font-weight: 600;
+}
+#team_part .teamDiteals .team_hover div .teamDicesckibson {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 40%;
+  margin-bottom: 20px;
+}
+#team_part .teamDiteals .team_hover div .coustom_button3 {
+  background-color: var(--paymaryColor);
+  color: var(--whiteColor);
 }
 /* =============== team part css end =============== */
