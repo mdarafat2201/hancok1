@@ -671,3 +671,27 @@ li {
   color: var(--whiteColor);
 }
 /* =============== team part css end =============== */
+/* =============== Rectangle part css start =============== */
+#Rectangle_part {
+  padding: 50px;
+  background-color: var(--paymary_background_color);
+}
+#Rectangle_part .Rectangle_header .Rectangle_header_text {
+  position: relative;
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  padding-right: 50%;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 3.8px;
+}
+#Rectangle_part .Rectangle_header .Rectangle_header_text::before {
+  position: absolute;
+  content: "";
+  left: 332px;
+  bottom: 6px;
+  width: 80px;
+  height: 4px;
+  background-color: var(--paymaryColor);
+}
+/* =============== Rectangle part css end =============== */
