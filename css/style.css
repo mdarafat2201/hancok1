@@ -694,4 +694,26 @@ li {
   height: 4px;
   background-color: var(--paymaryColor);
 }
+#Rectangle_part .Rectangle_titel_part {
+  margin: 70px 0;
+}
+#Rectangle_part .Rectangle_titel_part .Rectangle_titel {
+  margin-left: 40px;
+}
+#Rectangle_part .Rectangle_titel_part .Rectangle_titel .Rectangle_titel_text {
+  color: #ff4655;
+  font-family: var(--Barlow);
+  font-size: 17px;
+  font-weight: 600;
+}
+#Rectangle_part .Rectangle_titel_part .Rectangle_titel .Rectangle_dichckibson {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 20%;
+}
+#Rectangle_part hr {
+  color: var(--whiteColor);
+}
 /* =============== Rectangle part css end =============== */
