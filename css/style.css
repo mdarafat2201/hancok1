@@ -717,3 +717,33 @@ li {
   color: var(--whiteColor);
 }
 /* =============== Rectangle part css end =============== */
+/* =============== from part css start =============== */
+#from_part {
+  padding: 50px 0;
+  background-color: var(--secondary_background_color);
+}
+#from_part .from {
+  padding: 30px;
+  background-color: var(--paymaryColor);
+}
+#from_part .from .from_ditels .from_ditels_text {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#from_part .from .from_inpout .input_box {
+  position: relative;
+  width: 400px;
+  height: 40px;
+  border-radius: 30px;
+  padding: 10px;
+}
+#from_part .from .from_inpout .hover {
+  background-color: #603398;
+  padding: 10px;
+  width: 117px;
+  height: 40px;
+}
+/* =============== from part css end =============== */
