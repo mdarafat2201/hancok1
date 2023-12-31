@@ -733,17 +733,30 @@ li {
   font-weight: 600;
   text-transform: uppercase;
 }
-#from_part .from .from_inpout .input_box {
+#from_part .from .from_inpout {
   position: relative;
+}
+#from_part .from .from_inpout .input_box {
   width: 400px;
   height: 40px;
   border-radius: 30px;
   padding: 10px;
 }
 #from_part .from .from_inpout .hover {
-  background-color: #603398;
-  padding: 10px;
-  width: 116px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px;
+  background: #191919;
+  padding: 10px 20px;
+  width: 117px;
   height: 40px;
+}
+#from_part .from .from_inpout .hover h3 {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 /* =============== from part css end =============== */
