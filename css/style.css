@@ -760,3 +760,31 @@ li {
   text-transform: uppercase;
 }
 /* =============== from part css end =============== */
+/* =============== footer part css start =============== */
+#footer_part {
+  padding: 50px 0;
+  background-color: var(--paymary_background_color);
+}
+#footer_part .footer_left p {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 30px 0 60px;
+}
+#footer_part .footer_left a {
+  font-size: 20px;
+  margin-right: 10px;
+  background-color: var(--secondary_background_color);
+  border-radius: 50%;
+  transition: 0.1s;
+}
+#footer_part .footer_left a i {
+  margin: 20px;
+  color: var(--whiteColor);
+}
+#footer_part .footer_left a:hover {
+  background-color: #ff4655;
+}
+/* =============== footer part css end =============== */
