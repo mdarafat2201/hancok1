@@ -55,11 +55,17 @@ li {
   font-weight: 400;
   margin-left: 20px;
 }
+#navbar_part .coustom_navbar ul li a:hover {
+  color: #ff4655;
+}
 #navbar_part .menu_icons a {
   color: var(--whiteColor);
   font-family: var(--Oswald);
   font-size: 14px;
   font-weight: 400;
+}
+#navbar_part .menu_icons a:hover {
+  color: #ff4655;
 }
 #navbar_part .menu_icons {
   column-gap: 25px;
@@ -114,11 +120,17 @@ li {
 #banner_part .banner_text .coustom_button {
   background-color: var(--whiteColor);
 }
+#banner_part .banner_text .coustom_button:hover {
+  background-color: #ff4655;
+}
 #banner_part .banner_text .coustom_button a {
   color: var(--paymary_background_color);
   font-family: var(--Oswald);
   font-size: 16px;
   font-weight: 400;
+}
+#banner_part .banner_text .coustom_button a:hover {
+  color: #fff;
 }
 #banner_part .banner_text .coustom_button a i {
   margin-left: 10px;
@@ -244,11 +256,17 @@ li {
 #abuot_part .about_text .coustom_button {
   background-color: var(--whiteColor);
 }
+#abuot_part .about_text .coustom_button:hover {
+  background-color: #ff4655;
+}
 #abuot_part .about_text .coustom_button a {
   color: var(--paymary_background_color);
   font-family: var(--Oswald);
   font-size: 16px;
   font-weight: 400;
+}
+#abuot_part .about_text .coustom_button a:hover {
+  color: #fff;
 }
 #abuot_part .about_text .coustom_button a i {
   margin-left: 10px;
@@ -293,6 +311,9 @@ li {
   bottom: 22px;
   right: 22px;
 }
+#games_part .games_right_img .icons:hover {
+  background-color: #ff4655;
+}
 #games_part .games_right_img .icons i {
   color: var(--whiteColor);
   margin: 15px 15px 11px;
@@ -305,6 +326,9 @@ li {
   position: absolute;
   bottom: 82px;
   right: 8px;
+}
+#games_part .games_right_img .icons1:hover {
+  background-color: #ff4655;
 }
 #games_part .games_right_img .icons1 i {
   color: var(--whiteColor);
@@ -811,5 +835,16 @@ li {
   font-weight: 600;
   letter-spacing: 1.75px;
   margin-bottom: 30px;
+}
+.wrpper__copyright {
+  color: #fff;
+  font-family: var(--Oswald);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+}
+.wrpperCopyright__span {
+  color: #ff4655;
 }
 /* =============== footer part css end =============== */
